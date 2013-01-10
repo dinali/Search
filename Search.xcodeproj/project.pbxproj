@@ -17,23 +17,8 @@
 		9626D1DA169DFB9B000C6BCD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9626D1D9169DFB9B000C6BCD /* Default@2x.png */; };
 		9626D1DC169DFB9B000C6BCD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9626D1DB169DFB9B000C6BCD /* Default-568h@2x.png */; };
 		9626D1DF169DFB9B000C6BCD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9626D1DD169DFB9B000C6BCD /* MainStoryboard.storyboard */; };
-		9626D1E2169DFB9B000C6BCD /* ERSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9626D1E1169DFB9B000C6BCD /* ERSViewController.m */; };
-		9626D1EA169DFB9B000C6BCD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9626D1E9169DFB9B000C6BCD /* SenTestingKit.framework */; };
-		9626D1EB169DFB9B000C6BCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9626D1C5169DFB9B000C6BCD /* UIKit.framework */; };
-		9626D1EC169DFB9B000C6BCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9626D1C7169DFB9B000C6BCD /* Foundation.framework */; };
-		9626D1F4169DFB9B000C6BCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9626D1F2169DFB9B000C6BCD /* InfoPlist.strings */; };
-		9626D1F7169DFB9B000C6BCD /* SearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9626D1F6169DFB9B000C6BCD /* SearchTests.m */; };
+		9626D202169DFC0D000C6BCD /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9626D201169DFC0D000C6BCD /* SearchViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9626D1ED169DFB9B000C6BCD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9626D1B8169DFB9B000C6BCD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9626D1C0169DFB9B000C6BCD;
-			remoteInfo = Search;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9626D1C1169DFB9B000C6BCD /* Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Search.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,14 +35,9 @@
 		9626D1D9169DFB9B000C6BCD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		9626D1DB169DFB9B000C6BCD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		9626D1DE169DFB9B000C6BCD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		9626D1E0169DFB9B000C6BCD /* ERSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ERSViewController.h; sourceTree = "<group>"; };
-		9626D1E1169DFB9B000C6BCD /* ERSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERSViewController.m; sourceTree = "<group>"; };
-		9626D1E8169DFB9B000C6BCD /* SearchTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9626D1E9169DFB9B000C6BCD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		9626D1F1169DFB9B000C6BCD /* SearchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SearchTests-Info.plist"; sourceTree = "<group>"; };
-		9626D1F3169DFB9B000C6BCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9626D1F5169DFB9B000C6BCD /* SearchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchTests.h; sourceTree = "<group>"; };
-		9626D1F6169DFB9B000C6BCD /* SearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchTests.m; sourceTree = "<group>"; };
+		9626D200169DFC0D000C6BCD /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		9626D201169DFC0D000C6BCD /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,16 +51,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9626D1E4169DFB9B000C6BCD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9626D1EA169DFB9B000C6BCD /* SenTestingKit.framework in Frameworks */,
-				9626D1EB169DFB9B000C6BCD /* UIKit.framework in Frameworks */,
-				9626D1EC169DFB9B000C6BCD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -88,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				9626D1CB169DFB9B000C6BCD /* Search */,
-				9626D1EF169DFB9B000C6BCD /* SearchTests */,
 				9626D1C4169DFB9B000C6BCD /* Frameworks */,
 				9626D1C2169DFB9B000C6BCD /* Products */,
 			);
@@ -98,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				9626D1C1169DFB9B000C6BCD /* Search.app */,
-				9626D1E8169DFB9B000C6BCD /* SearchTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,11 +85,11 @@
 		9626D1CB169DFB9B000C6BCD /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				9626D200169DFC0D000C6BCD /* SearchViewController.h */,
+				9626D201169DFC0D000C6BCD /* SearchViewController.m */,
 				9626D1D4169DFB9B000C6BCD /* ERSAppDelegate.h */,
 				9626D1D5169DFB9B000C6BCD /* ERSAppDelegate.m */,
 				9626D1DD169DFB9B000C6BCD /* MainStoryboard.storyboard */,
-				9626D1E0169DFB9B000C6BCD /* ERSViewController.h */,
-				9626D1E1169DFB9B000C6BCD /* ERSViewController.m */,
 				9626D1CC169DFB9B000C6BCD /* Supporting Files */,
 			);
 			path = Search;
@@ -137,25 +105,6 @@
 				9626D1D7169DFB9B000C6BCD /* Default.png */,
 				9626D1D9169DFB9B000C6BCD /* Default@2x.png */,
 				9626D1DB169DFB9B000C6BCD /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9626D1EF169DFB9B000C6BCD /* SearchTests */ = {
-			isa = PBXGroup;
-			children = (
-				9626D1F5169DFB9B000C6BCD /* SearchTests.h */,
-				9626D1F6169DFB9B000C6BCD /* SearchTests.m */,
-				9626D1F0169DFB9B000C6BCD /* Supporting Files */,
-			);
-			path = SearchTests;
-			sourceTree = "<group>";
-		};
-		9626D1F0169DFB9B000C6BCD /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9626D1F1169DFB9B000C6BCD /* SearchTests-Info.plist */,
-				9626D1F2169DFB9B000C6BCD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -180,25 +129,6 @@
 			productReference = 9626D1C1169DFB9B000C6BCD /* Search.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9626D1E7169DFB9B000C6BCD /* SearchTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9626D1FD169DFB9B000C6BCD /* Build configuration list for PBXNativeTarget "SearchTests" */;
-			buildPhases = (
-				9626D1E3169DFB9B000C6BCD /* Sources */,
-				9626D1E4169DFB9B000C6BCD /* Frameworks */,
-				9626D1E5169DFB9B000C6BCD /* Resources */,
-				9626D1E6169DFB9B000C6BCD /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9626D1EE169DFB9B000C6BCD /* PBXTargetDependency */,
-			);
-			name = SearchTests;
-			productName = SearchTests;
-			productReference = 9626D1E8169DFB9B000C6BCD /* SearchTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -222,7 +152,6 @@
 			projectRoot = "";
 			targets = (
 				9626D1C0169DFB9B000C6BCD /* Search */,
-				9626D1E7169DFB9B000C6BCD /* SearchTests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,31 +169,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9626D1E5169DFB9B000C6BCD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9626D1F4169DFB9B000C6BCD /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		9626D1E6169DFB9B000C6BCD /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9626D1BD169DFB9B000C6BCD /* Sources */ = {
@@ -273,27 +178,11 @@
 			files = (
 				9626D1D2169DFB9B000C6BCD /* main.m in Sources */,
 				9626D1D6169DFB9B000C6BCD /* ERSAppDelegate.m in Sources */,
-				9626D1E2169DFB9B000C6BCD /* ERSViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9626D1E3169DFB9B000C6BCD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9626D1F7169DFB9B000C6BCD /* SearchTests.m in Sources */,
+				9626D202169DFC0D000C6BCD /* SearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9626D1EE169DFB9B000C6BCD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9626D1C0169DFB9B000C6BCD /* Search */;
-			targetProxy = 9626D1ED169DFB9B000C6BCD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9626D1CE169DFB9B000C6BCD /* InfoPlist.strings */ = {
@@ -310,14 +199,6 @@
 				9626D1DE169DFB9B000C6BCD /* en */,
 			);
 			name = MainStoryboard.storyboard;
-			sourceTree = "<group>";
-		};
-		9626D1F2169DFB9B000C6BCD /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9626D1F3169DFB9B000C6BCD /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -379,7 +260,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Search/Search-Prefix.pch";
 				INFOPLIST_FILE = "Search/Search-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,42 +273,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Search/Search-Prefix.pch";
 				INFOPLIST_FILE = "Search/Search-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		9626D1FE169DFB9B000C6BCD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Search.app/Search";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Search/Search-Prefix.pch";
-				INFOPLIST_FILE = "SearchTests/SearchTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		9626D1FF169DFB9B000C6BCD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Search.app/Search";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Search/Search-Prefix.pch";
-				INFOPLIST_FILE = "SearchTests/SearchTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -448,14 +299,7 @@
 				9626D1FC169DFB9B000C6BCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		9626D1FD169DFB9B000C6BCD /* Build configuration list for PBXNativeTarget "SearchTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9626D1FE169DFB9B000C6BCD /* Debug */,
-				9626D1FF169DFB9B000C6BCD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
